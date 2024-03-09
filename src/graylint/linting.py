@@ -166,8 +166,8 @@ def make_linter_env(root: Path, revision: str) -> Dict[str, str]:
     """
     return {
         **os.environ,
-        "DARKER_LINT_ORIG_REPO": str(root),
-        "DARKER_LINT_REV_COMMIT": (
+        "GRAYLINT_ORIG_REPO": str(root),
+        "GRAYLINT_REV_COMMIT": (
             "WORKTREE" if revision == "WORKTREE" else revision[:7]
         ),
     }
