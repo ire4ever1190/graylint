@@ -18,7 +18,7 @@ Fixed
   of the paths on the command line didn't exist.
 
 
-Darker 0.1.0 to 0.7.0
+Darker 0.1.0 to 1.7.0
 ======================
 
 For changes before the migration of code from Darker to Darkgraylib and Graylint, see
