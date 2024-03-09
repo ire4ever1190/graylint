@@ -2,10 +2,11 @@
  graylint
 ==========
 
-This package is a placeholder for a tool which filters linter messages from various
-Python linters to only those which were caused by recent changes to the code base being
-linted.
+This tool can run various Python linters and filter linter messages to only those
+which were caused by recent changes to the code base being linted.
 
-The feature will be moved from Darker_ to this new package.
+Originally this functionality lived in the Darker_ package, but since version 2.0.0
+Darker only focuses on reformatting code while the linting capability continues in
+Graylint.
 
 .. _Darker: https://pypi.org/project/darker
